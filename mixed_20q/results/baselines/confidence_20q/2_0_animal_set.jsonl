@@ -1,0 +1,20 @@
+{"subject": "zebra", "question": "Does it primarily live in water?", "answer": "No", "question_count": 1, "success": false, "guess": "elephant", "confidence": 2, "raw_guess": "NA", "is_multiple_choice": false}
+{"subject": "zebra", "question": "Is it a mammal?", "answer": "Yes", "question_count": 2, "success": false, "guess": "elephant", "confidence": 2, "raw_guess": "NA", "is_multiple_choice": false}
+{"subject": "zebra", "question": "Is it larger than a human adult?", "answer": "No", "question_count": 3, "success": false, "guess": "chimpanzee", "confidence": 22, "raw_guess": "NA", "is_multiple_choice": false}
+{"subject": "zebra", "question": "Does it primarily live in trees?", "answer": "No", "question_count": 4, "success": false, "guess": "bear", "confidence": 14, "raw_guess": "NA", "is_multiple_choice": false}
+{"subject": "zebra", "question": "Is it native to Australia?", "answer": "No", "question_count": 5, "success": false, "guess": "wolf", "confidence": 12, "raw_guess": "NA", "is_multiple_choice": false}
+{"subject": "zebra", "question": "Is it primarily active at night?", "answer": "No", "question_count": 6, "success": false, "guess": "chimpanzee", "confidence": 26, "raw_guess": "NA", "is_multiple_choice": false}
+{"subject": "zebra", "question": "Is it primarily a carnivore?", "answer": "No", "question_count": 7, "success": false, "guess": "chimpanzee", "confidence": 24, "raw_guess": "NA", "is_multiple_choice": false}
+{"subject": "zebra", "question": "Does it have hooves?", "answer": "Yes", "question_count": 8, "success": false, "guess": "llama", "confidence": 35, "raw_guess": "NA", "is_multiple_choice": false}
+{"subject": "zebra", "question": "Does it have horns or antlers?", "answer": "No", "question_count": 9, "success": true, "guess": "zebra", "confidence": 78, "raw_guess": "NA", "is_multiple_choice": false}
+{"subject": "zebra", "question": "Is it commonly domesticated by humans?", "answer": "No", "question_count": 10, "success": true, "guess": "zebra", "confidence": 89, "raw_guess": "NA", "is_multiple_choice": false}
+{"subject": "zebra", "question": "Does it have a long neck?", "answer": "No", "question_count": 11, "success": true, "guess": "zebra", "confidence": 88, "raw_guess": "NA", "is_multiple_choice": false}
+{"subject": "zebra", "question": "Is it native to Africa?", "answer": "Yes", "question_count": 12, "success": true, "guess": "zebra", "confidence": 95, "raw_guess": "NA", "is_multiple_choice": false}
+{"subject": "zebra", "question": "Does it have stripes?", "answer": "Yes", "question_count": 13, "success": true, "guess": "zebra", "confidence": 99, "raw_guess": "NA", "is_multiple_choice": false}
+{"subject": "zebra", "question": "Is it black and white?", "answer": "Yes", "question_count": 14, "success": true, "guess": "zebra", "confidence": 99, "raw_guess": "NA", "is_multiple_choice": false}
+{"subject": "zebra", "question": "Is it known for living in large herds?", "answer": "Yes", "question_count": 15, "success": true, "guess": "zebra", "confidence": 99, "raw_guess": "NA", "is_multiple_choice": false}
+{"subject": "zebra", "question": "Is it a grazer?", "answer": "Yes", "question_count": 16, "success": true, "guess": "zebra", "confidence": 99, "raw_guess": "NA", "is_multiple_choice": false}
+{"subject": "zebra", "question": "Is it in the horse family?", "answer": "Yes", "question_count": 17, "success": true, "guess": "zebra", "confidence": 99, "raw_guess": "NA", "is_multiple_choice": false}
+{"subject": "zebra", "question": "Is it commonly found on open savannas or grasslands?", "answer": "Yes", "question_count": 18, "success": true, "guess": "zebra", "confidence": 100, "raw_guess": "NA", "is_multiple_choice": false}
+{"subject": "zebra", "question": "Is it native to eastern or southern Africa?", "answer": "Yes", "question_count": 19, "success": true, "guess": "zebra", "confidence": 99, "raw_guess": "NA", "is_multiple_choice": false}
+{"subject": "zebra", "question": "Is it one of the zebra species?", "answer": "Yes", "question_count": 20, "success": true, "guess": "zebra", "confidence": 100, "raw_guess": "NA", "is_multiple_choice": false}

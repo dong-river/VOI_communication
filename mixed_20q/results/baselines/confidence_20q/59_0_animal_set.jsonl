@@ -1,0 +1,20 @@
+{"subject": "stoat", "question": "Does it primarily live in water?", "answer": "No", "question_count": 1, "success": false, "guess": "elephant", "confidence": 2, "raw_guess": "NA", "is_multiple_choice": false}
+{"subject": "stoat", "question": "Is it a mammal?", "answer": "Yes", "question_count": 2, "success": false, "guess": "elephant", "confidence": 2, "raw_guess": "NA", "is_multiple_choice": false}
+{"subject": "stoat", "question": "Is it larger than a human?", "answer": "No", "question_count": 3, "success": false, "guess": "chimpanzee", "confidence": 24, "raw_guess": "NA", "is_multiple_choice": false}
+{"subject": "stoat", "question": "Does it primarily live in trees?", "answer": "No", "question_count": 4, "success": false, "guess": "bear", "confidence": 8, "raw_guess": "NA", "is_multiple_choice": false}
+{"subject": "stoat", "question": "Is it a carnivore?", "answer": "Yes", "question_count": 5, "success": false, "guess": "wolf", "confidence": 28, "raw_guess": "NA", "is_multiple_choice": false}
+{"subject": "stoat", "question": "Is it primarily active at night?", "answer": "Yes", "question_count": 6, "success": false, "guess": "bobcat", "confidence": 28, "raw_guess": "NA", "is_multiple_choice": false}
+{"subject": "stoat", "question": "Does it belong to the cat family?", "answer": "No", "question_count": 7, "success": false, "guess": "hyena", "confidence": 43, "raw_guess": "NA", "is_multiple_choice": false}
+{"subject": "stoat", "question": "Does it belong to the dog family?", "answer": "No", "question_count": 8, "success": false, "guess": "hyena", "confidence": 43, "raw_guess": "NA", "is_multiple_choice": false}
+{"subject": "stoat", "question": "Does it belong to the weasel family?", "answer": "Yes", "question_count": 9, "success": false, "guess": "wolverine", "confidence": 77, "raw_guess": "NA", "is_multiple_choice": false}
+{"subject": "stoat", "question": "Is it semiaquatic?", "answer": "No", "question_count": 10, "success": false, "guess": "wolverine", "confidence": 91, "raw_guess": "NA", "is_multiple_choice": false}
+{"subject": "stoat", "question": "Is it known for having a strong, unpleasant smell?", "answer": "Yes", "question_count": 11, "success": false, "guess": "polecat", "confidence": 95, "raw_guess": "NA", "is_multiple_choice": false}
+{"subject": "stoat", "question": "Is it primarily black in color?", "answer": "No", "question_count": 12, "success": false, "guess": "polecat", "confidence": 95, "raw_guess": "NA", "is_multiple_choice": false}
+{"subject": "stoat", "question": "Is it primarily brown in color?", "answer": "Yes", "question_count": 13, "success": false, "guess": "polecat", "confidence": 91, "raw_guess": "NA", "is_multiple_choice": false}
+{"subject": "stoat", "question": "Is it smaller than a domestic cat?", "answer": "Yes", "question_count": 14, "success": false, "guess": "polecat", "confidence": 93, "raw_guess": "NA", "is_multiple_choice": false}
+{"subject": "stoat", "question": "Is it commonly found in North America?", "answer": "Yes", "question_count": 15, "success": false, "guess": "mink", "confidence": 34, "raw_guess": "NA", "is_multiple_choice": false}
+{"subject": "stoat", "question": "Is it a skunk?", "answer": "No", "question_count": 16, "success": false, "guess": "mink", "confidence": 55, "raw_guess": "NA", "is_multiple_choice": false}
+{"subject": "stoat", "question": "Is it a badger?", "answer": "No", "question_count": 17, "success": false, "guess": "mink", "confidence": 72, "raw_guess": "NA", "is_multiple_choice": false}
+{"subject": "stoat", "question": "Is it a ferret?", "answer": "No", "question_count": 18, "success": false, "guess": "mink", "confidence": 44, "raw_guess": "NA", "is_multiple_choice": false}
+{"subject": "stoat", "question": "Is it a mink?", "answer": "No", "question_count": 19, "success": false, "guess": "polecat", "confidence": 86, "raw_guess": "NA", "is_multiple_choice": false}
+{"subject": "stoat", "question": "Is it a polecat?", "answer": "No", "question_count": 20, "success": true, "guess": "stoat", "confidence": 39, "raw_guess": "NA", "is_multiple_choice": false}
