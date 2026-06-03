@@ -55,24 +55,6 @@ cd flight_rec
 python evaluate.py openai/gpt-5.4
 ```
 
-### Result — `openai/gpt-5.4` (100 games, offline thresholding)
-
-Best configuration per method (VOI is parameter-free: threshold = cost):
-
-| Method | thresh | #Q | Reward | Util@0.01 | Util@0.05 | Util@0.10 |
-|---|---|---|---|---|---|---|
-| no_question | — | 0.00 | 0.2221 | 0.2221 | 0.2221 | 0.2221 |
-| Confidence | ct=0.9 | 2.44 | 0.3327 | 0.3084 | 0.2107 | 0.0887 |
-| Fixed | best NQ | 1–3 | — | 0.3119 | 0.2531 | 0.2031 |
-| **VOI** | **voi≥cost** | 2.11 / 0.64 / 0.09 | — | **0.4094** | **0.2616** | **0.2440** |
-
-- **cost 0.01**: VOI wins (0.4094, ~2.1 questions) vs. best baseline Fixed=3Q (0.3119).
-- **cost 0.05**: VOI wins (0.2616, ~0.6 questions) vs. best baseline Fixed=1Q (0.2531).
-- **cost 0.10**: VOI wins (0.2440, ~0.1 questions) vs. NoQuestion (0.2221).
-
-VOI is the most question-efficient policy: it scales its question budget with the
-cost, whereas the fixed/confidence baselines pay a flat penalty.
-
 ---
 
 ## 4. Reproduce from scratch (runs the LLM)
@@ -110,17 +92,3 @@ JSONL line per turn (prediction, reward, confidence, and `voi_next`). Because
 thresholds are applied **after** the rollout, two costs that don't change the
 stopping point produce **identical** results, instead of differing due to
 independent stochastic runs.
-
----
-
-## 5. Code layout
-
-| File | Purpose |
-|------|---------|
-| `flight_rec.py` | Per-turn rollout runner (`--log_per_turn`). |
-| `evaluate.py` | Apply offline stopping rules and print the comparison table. |
-| `voi_utils.py` | VOI candidate questions, belief/answer estimation, and scoring. |
-| `utils.py` | Game construction, prompts, option/answer parsing helpers. |
-| `api_utils.py` | LLM client dispatch (env-var keys; OpenAI / OpenRouter). |
-| `constants.py` | Feature order, de-normalization constants, random seed. |
-| `run_experiments.sh` | Launch the two sharded per-turn rollouts. |
